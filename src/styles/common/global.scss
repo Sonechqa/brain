@@ -11,6 +11,7 @@ html {
 }
 
 body {
+    font-family: 'Cuprum';
     margin: 0;
 }
 
@@ -20,4 +21,9 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
 }

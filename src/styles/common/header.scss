@@ -1,5 +1,42 @@
-@import "../mixins/media";
-
-header {
-    
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 37px;
+    padding-right: 32px;
+    &__link {
+        font-family: 'Bebas Neue Regular';
+        font-size: 15px;
+        color: black;
+        &:not(:last-child) {
+            margin-right: 50px;
+        }
+    }
+    &__navigation {
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    &__city {
+        font-family: 'Bebas Neue Regular';
+        font-size: 15px;
+        color: black;
+        border: 1px solid #5e6260;
+        padding: 13px 44px 13px 20px;
+        background-color: transparent;
+        img {
+            margin-right: 35px;
+        }
+    }
+    &__educate {
+        font-family: 'Cuprum';
+        font-size: 12px;
+        color: #b93777;
+        margin-left: 32px;
+    }
+    &__sign-in {
+        font-family: 'Cuprum';
+        font-size: 12px;
+        color: #1d3369;
+        margin-left: 48px;
+    }
 }
