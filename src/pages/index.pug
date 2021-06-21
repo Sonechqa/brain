@@ -5,3 +5,24 @@ block content
     section.main
       .container
         h1.main__title НАЙДИТЕ СВОЕ ПРИЗВАНИЕ В ПОЛНОМ КАТАЛОГЕ ВУЗОВ И КУРСОВ
+        ul.main__partners
+          li.main__partner 300 ВУЗОВ
+          li.main__partner 5 600 КУРСОВ
+          li.main__partner 1 200 ПРЕПОДАВАТЕЛЕЙ
+        form.main__search-field
+          input.main__text(type="search" placeholder="")
+          button.main__loupe(type="button")
+            img(src="/img/icons/loupe.png")
+    section.popular.container
+      h2.popular__title ПОПУЛЯРНЫЕ КУРСЫ
+      ul.popular__courses
+        li.popular__course.popular__course--active
+          button(type="button") ВСЕ КУРСЫ  450
+        li.popular__course
+          button(type="button") IT-КУРСЫ  5
+        li.popular__course
+          button(type="button") ПРОФЕССИОНАЛЬНЫЙ РОСТ  10
+        li.popular__course
+          button(type="button") БИЗНЕС И ФИНАНСЫ (40)
+        li.popular__course
+          button(type="button") WEB-ДИЗАЙН  10
