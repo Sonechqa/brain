@@ -34,6 +34,7 @@
         background-color: transparent;
         border: none;
         width: 100%;
+        outline: none;
     }
     &__loupe {
         background-color: transparent;
@@ -49,7 +50,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid #e3e5e8;
 }
 .popular {
     &__title {
@@ -63,6 +63,7 @@
     &__courses {
         display: flex;
         margin: 0px;
+        border-bottom: 1px solid #e3e5e8;
     }
     &__course {
         list-style-type: none;

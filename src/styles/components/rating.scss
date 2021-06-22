@@ -1,0 +1,24 @@
+.rating {
+    position: relative;
+    &__star {
+        position: relative;
+        display: inline-block;
+        height: 11px;
+        width: 11px;
+        background-image: url("/img/icons/star-inactive.png");
+        background-size: cover;
+        &:not(:last-child) {
+            margin-right: 1px;
+        }
+    }
+    &__active {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: url("/img/icons/star-active.png");
+        background-repeat: repeat-x;
+        background-size: 12px 11px;
+        top: 3px;
+        left: 1px;
+    }
+}
