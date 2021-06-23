@@ -1,6 +1,96 @@
 .about-course {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
     &__line {
         display: flex;
         justify-content: space-between;
+        &:not(:last-child) {
+            margin-bottom: 13px;
+        }
+    }
+    &__above-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 70px;
+    }
+    &__growth {
+        background-color: #b93777;
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 13px;
+        color: white;
+        padding: 12px 20px;
+    }
+    &__title {
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 15px;
+        margin-bottom: 9px;
+    }
+    &__university {
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 13px;
+        color: #666d78;
+        margin-top: 0;
+        margin-bottom: 36px;
+    }
+    &__left {
+        font-family: 'HelveticaNeueCyr-LightItalic';
+        font-size: 13px;
+        color: #6c6c6c;
+    }
+    &__right {
+        font-family: 'HelveticaNeueCyr-LightItalic';
+        font-size: 13px;
+        color: #6c6c6c;
+    }
+    &__amount {
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 11px;
+        color: #c3bbbb;
+        margin-left: 8px;
+        margin-top: 7px;
+    }
+    &__last-day {
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 11px;
+        color: #c3bbbb;
+        margin-left:11px;
+        margin-top: 7px;
+    }
+    &__recruitment {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+        margin-bottom: 42px;
+    }
+    &__date {
+        display: flex;
+        align-items: center;
+    }
+    &__people {
+        display: flex;
+        align-items: center;
+    }
+    &__detailed {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'HelveticaNeueCyr-LightItalic';
+        font-size: 13px;
+        color: #95979c;
+        border: 1px solid #95979c;
+        padding: 17px 0;
+    }
+    &__characteristics {
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #dfd9d5;
+            width: 1px;
+            height: 100%;
+            left: 50%;
+        }
     }
 }

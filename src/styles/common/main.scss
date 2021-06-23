@@ -35,10 +35,13 @@
         border: none;
         width: 100%;
         outline: none;
+        padding-left: 16px;
+        font-size: 16px;
     }
     &__loupe {
         background-color: transparent;
         border: none;
+        padding-right: 16px;
     }
 }
 .main .container {
@@ -62,6 +65,8 @@
     }
     &__courses {
         display: flex;
+        justify-content: center;
+        width: 100%;
         margin: 0px;
         border-bottom: 1px solid #e3e5e8;
     }
@@ -97,5 +102,21 @@
                 opacity: 1;
             }
         }
+    }
+    &__about-courses {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__all-courses {
+        width: 360px;
+        display: flex;
+        justify-content: center;
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 14px;
+        color: white;
+        background-color: #747474;
+        padding: 18px 0;
+        margin-top: 62px;
     }
 }
