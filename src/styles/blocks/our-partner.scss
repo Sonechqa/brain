@@ -1,0 +1,29 @@
+.our-partner {
+    max-width: 360px;
+    &__img {
+        max-width: 100%;
+    }
+    &__about-university {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__name-of-university {
+        font-family: 'Cuprum';
+        font-size: 22px;
+        color: #4f433a;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 23px;
+    }
+    &__study {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    &__amount {
+        font-family: 'Cuprum';
+        font-size: 15px;
+        color: #b93777;
+        text-align: center;
+    }
+}

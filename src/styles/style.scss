@@ -1,13 +1,15 @@
 @import "utils/fonts";
 
+@import "components/rating";
+
+@import "components/banner";
+
+@import "components/button";
+
 @import "common/global";
 
 @import "common/header";
 
 @import "common/footer";
 
-@import "common/main";
-
-@import "common/about-course";
-
-@import "components/rating";
+@import "pages/index";

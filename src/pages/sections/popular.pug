@@ -1,0 +1,17 @@
+section.popular.container
+    h2.popular__title ПОПУЛЯРНЫЕ КУРСЫ
+    ul.popular__courses
+        li.popular__course.popular__course--active
+            button(type="button") ВСЕ КУРСЫ  450
+        li.popular__course
+            button(type="button") IT-КУРСЫ  5
+        li.popular__course
+            button(type="button") ПРОФЕССИОНАЛЬНЫЙ РОСТ  10
+        li.popular__course
+            button(type="button") БИЗНЕС И ФИНАНСЫ 40
+        li.popular__course
+            button(type="button") WEB-ДИЗАЙН  10
+    .popular__about-courses
+        each val in [1, 2, 3, 4, 5, 6]
+            include ../blocks/about-course
+    a.button.button--grey(href="#") ВСЕ КУРСЫ

@@ -1,0 +1,21 @@
+@import "../blocks/best-teacher";
+
+.best-teachers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 138px;
+    &__title {
+        font-family: 'Cuprum';
+        font-size: 40px;
+        color: #232323;
+        letter-spacing: 14px;
+        margin-top: 151px;
+        margin-bottom: 77px;
+    }
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

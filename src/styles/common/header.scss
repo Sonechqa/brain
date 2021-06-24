@@ -11,6 +11,10 @@
         &:not(:last-child) {
             margin-right: 50px;
         }
+        transition: color ease 0.3s;
+        &:hover {
+            color: rgba(100, 100, 100, 1);
+        }
     }
     &__navigation {
         margin-left: 50px;
@@ -26,17 +30,30 @@
         img {
             margin-right: 35px;
         }
+        cursor: pointer;
+        transition: background-color ease 0.3s;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
     }
     &__educate {
         font-family: 'Cuprum';
         font-size: 12px;
         color: #b93777;
         margin-left: 32px;
+        transition: color ease 0.3s;
+        &:hover {
+            color: #d3659c;
+        }
     }
     &__sign-in {
         font-family: 'Cuprum';
         font-size: 12px;
         color: #1d3369;
         margin-left: 48px;
+        transition: color ease 0.3s;
+        &:hover {
+            color: #4863a8;
+        }
     }
 }

@@ -1,0 +1,26 @@
+.button {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    font-family: 'HelveticaNeueCyr-LightItalic';
+    font-size: 13px;
+    color: #95979c;
+    background-color: white;
+    border: 1px solid #95979c;
+    padding: 17px 0;
+    margin-top: 59px;
+    transition: background-color ease 0.3s;
+    &:hover {
+        background-color: rgba(61, 53, 57, 0.075);
+    }
+    &--grey {
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 14px;
+        color: white;
+        background-color: #747474;
+        padding: 18px 0;
+        &:hover {
+            background-color: rgba(145,145,145,1);
+        }
+    }
+}

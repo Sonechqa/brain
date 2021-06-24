@@ -72,16 +72,6 @@
         display: flex;
         align-items: center;
     }
-    &__detailed {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-family: 'HelveticaNeueCyr-LightItalic';
-        font-size: 13px;
-        color: #95979c;
-        border: 1px solid #95979c;
-        padding: 17px 0;
-    }
     &__characteristics {
         position: relative;
         &::before {
@@ -91,6 +81,19 @@
             width: 1px;
             height: 100%;
             left: 50%;
+        }
+    }
+    &__heart {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: background-color ease 0.3s;
+        padding-top: 5px;
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        &:hover {
+            background-color: rgba(185,55,119,0.1);
         }
     }
 }
