@@ -2,7 +2,10 @@ section.best-teachers.container
     - var bannerImage = "/img/banners/1.jpg";
     include ../components/banner.pug
     h2.best-teachers__title ЛУЧШИЕ ПРЕПОДАВАТЕЛИ
-    .best-teachers__wrapper
-        each val in ["img/teachers/1.jpg", "img/teachers/2.jpg", "img/teachers/1.jpg", "img/teachers/2.jpg"]
-            - teacherImage = val;
-            include ../blocks/best-teacher
+    .best-teachers__slider
+        .best-teachers__items
+            each val in ["img/teachers/1.jpg", "img/teachers/2.jpg", "img/teachers/1.jpg", "img/teachers/2.jpg"]
+                - teacherImage = val;
+                include ../blocks/best-teacher
+        img.best-teachers__navigation.best-teachers__navigation--left(src="img/icons/arrow-slider.png" alt="")
+        img.best-teachers__navigation.best-teachers__navigation--right(src="img/icons/arrow-slider.png" alt="")

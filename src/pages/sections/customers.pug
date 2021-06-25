@@ -1,0 +1,11 @@
+section.customers.container 
+    h2.customers__title НАЙДЕМ МЕСТО КАЖДОМУ
+    .customers__wrapper 
+        each val in [{img: "img/audience/cap.png", text: 'УЧЕНИКАМ/АБИТУРИЕНТАМ'}, {img: "img/audience/building.png", text: 'ВУЗАМ И ОНЛАЙН ШКОЛАМ'}, {img: "img/audience/lector.png", text: 'ПРЕПОДАВАТЕЛЯМ'}]
+            - customerImage = val.img;
+            - customerText = val.text;
+            include ../blocks/customer
+    .customers__gallery
+        img.customers__img(src="/img/gallery/1.jpg" alt="")
+        img.customers__img(src="/img/gallery/2.jpg" alt="")
+        img.customers__img(src="/img/gallery/3.jpg" alt="")

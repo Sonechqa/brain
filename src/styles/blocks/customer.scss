@@ -1,0 +1,29 @@
+.customer {
+    max-width: 254px;
+    &__to-whom {
+        font-family: 'Cuprum';
+        font-size: 22px;
+        color: #1f1f1f;
+        margin-top: 62px;
+        margin-bottom: 55px;
+    }
+    &__img {
+        height: 155px;
+    }
+    &__description {
+        font-family: 'Cuprum';
+        font-size: 16px;
+        color: #5f5f5f;
+        line-height: 26px;
+        margin-bottom: 48px;
+    }
+    &__search {
+        font-family: 'Cuprum';
+        font-size: 22px;
+        color: #002c73;
+        transition: color ease 0.3s;
+        &:hover {
+            color: #1253bd;
+        }
+    }
+}
