@@ -1,4 +1,9 @@
 .main {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     background-image: url("/img/main/background.jpg");
     background-size: cover;
     padding-top: 350px;
@@ -11,6 +16,8 @@
     }
     &__partners {
         display: flex;
+        padding-left: 0;
+        margin-bottom: 54px;
     }
     &__partner {
         list-style-type: none;
@@ -21,7 +28,6 @@
         &:not(:last-child) {
             margin-right: 45px;
         }
-        margin-bottom: 54px;
     }
     &__search-field {
         display: flex;
@@ -29,6 +35,7 @@
         background-color: rgba(185, 55, 119, 0.92);
         height: 60px;
         width: 555px;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.23);
     }
     &__text {
         background-color: transparent;
@@ -49,9 +56,4 @@
             background-color: rgba(200, 200, 200, 0.5);
         }
     }
-}
-.main .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
