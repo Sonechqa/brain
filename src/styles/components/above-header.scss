@@ -1,0 +1,22 @@
+.above-header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    &__link {
+        font-family: 'Cuprum';
+        font-size: 12px;
+        color: #1d3369;
+        transition: color ease 0.3s;
+        &:hover {
+            color: #4863a8;
+        }
+        &--educate {
+            color: #b93777;
+            padding-right: 70px;
+            &:hover {
+                color: #d3659c;
+            }
+        }
+    }
+}
