@@ -1,0 +1,39 @@
+.service {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #a8a8a8;
+    font-family: 'Cuprum';
+    font-size: 10px;
+    padding: 8px 10px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    width: 100%;
+    &--color {
+        &-white {
+            color: #a8a8a8;
+            transition: background-color ease 0.3s;
+            &:hover {
+                background-color: rgb(236, 235, 235);
+            }
+        }
+        &-grey {
+            color: white;
+            background-color: #a8a8a8;
+            transition: background-color ease 0.3s;
+            &:hover {
+                background-color: #bebdbd;
+            }
+        }
+    }
+    &--size {
+        &-small {
+            max-width: 70px;
+        }
+        &-medium {
+            max-width: 106px;
+        }
+        &-big {
+            max-width: 144px;
+        }
+    }
+}

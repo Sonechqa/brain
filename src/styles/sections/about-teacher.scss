@@ -1,0 +1,94 @@
+.about-teacher {
+    &__data {
+        display: flex;
+        margin-top: 67px;
+    }
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 263px;
+    }
+    &__application {
+        height: 37px;
+        border: none;
+        background-color: #b93777;
+        font-family: 'Cuprum';
+        font-size: 12px;
+        color: white;
+        cursor: pointer;
+        margin-top: 3px;
+        transition: color ease 0.3s;
+        width: 100%;
+        &:hover {
+            background-color: #ce5692;
+        }
+    }
+    &__price {
+        font-family: 'Cuprum';
+        font-size: 14px;
+        color: #5f5f5f;
+        margin-top: 17px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 847px;
+        padding-left: 30px;
+    }
+    &__status-and-rating {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    &__ribbon {
+        padding-right: 10px;
+    }
+    &__status {
+        font-family: 'Cuprum';
+        font-size: 13px;
+        color: #6d950d;
+    }
+    &__feedback {
+        font-family: 'Cuprum';
+        font-size: 13px;
+        color: #5f5f5f;
+        padding-left: 22px;
+        cursor: pointer;
+        transition: color ease 0.3s;
+        &:hover {
+            color: #8d8a8a;
+        }
+    }
+    &__personality {
+        margin-top: 21px;
+    }
+    &__name {
+        display: block;
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 14px;
+        color: #5f5f5f;
+        line-height: 18px;
+        margin-bottom: 13px;
+    }
+    &__years {
+        font-family: 'Cuprum';
+        font-size: 13px;
+        color: #a8a8a8;
+    }
+    &__location {
+        margin-top: 28px;
+        display: flex;
+        align-items: center;
+    }
+    &__city {
+        padding-left: 7px;
+        font-family: 'HelveticaNeueCyr-Roman';
+        font-size: 14px;
+        color: #5f5f5f;
+    }
+    &__services {
+        max-width: 336px;
+        margin-top: 24px;
+    }
+}

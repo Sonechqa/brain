@@ -1,0 +1,31 @@
+section.about-teacher.container
+    include ../components/breadcrumb
+    .about-teacher__data
+        .about-teacher__contact
+            img(src="/img/about-teacher/teacher.jpg" alt="")
+            button.about-teacher__application(type="button") ОСТАВИТЬ ЗАЯВКУ
+            span.about-teacher__price ОТ 500 Р/ЧАС
+        .about-teacher__wrapper
+            .about-teacher__status-and-rating
+                .about-teacher__teacher-status
+                    img.about-teacher__ribbon(src="/img/icons/ribbon2.png" alt="")
+                    span.about-teacher__status Свободен
+                .about-teacher__teacher-rating
+                    include ../components/rating
+                    a.about-teacher__feedback 15 отзывов
+            .about-teacher__description 
+                .about-teacher__personality
+                    span.about-teacher__name
+                        | Гапонова
+                        br
+                        | Маргарита Поликарповна
+                    span.about-teacher__years 38 лет, опыт работы 5 лет, женский пол
+            .about-teacher__location 
+                img(src="/img/icons/map.png" alt="")
+                span.about-teacher__city Москва, ЦАО, Ворошиловское шоссе
+            .about-teacher__services
+                each val in [{text: 'ПОДГОТОВКА К ЕГЭ', color: "white", size: "medium"}, {text: 'ВСТУПИТЕЛЬНЫЕ ЭКЗАМЕНЫ', color: "white", size: "big"}, {text: '10-11 КЛАСС', color: "white", size: "small"}, {text: 'МАТЕМАТИКА', color: "grey", size: "medium"}, {text: 'ФИЗИКА', color: "grey", size: "small"}, {text: 'ГЕОМЕТРИЯ', color: "grey", size: "small"}]
+                    - serviceText = val.text;
+                    - color = val.color;
+                    - size = val.size;
+                    include ../components/service

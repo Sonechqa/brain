@@ -1,12 +1,19 @@
 .rating {
     position: relative;
+    display: inline-block;
+    height: 11px;
+    &__inactive {
+        height: 11px;
+        display: flex;
+    }
     &__star {
         position: relative;
         display: inline-block;
         height: 11px;
         width: 11px;
         background-image: url("/img/icons/star-inactive.png");
-        background-size: cover;
+        background-repeat: repeat-x;
+        background-size: 11px 11px;
         &:not(:last-child) {
             margin-right: 1px;
         }
