@@ -1,0 +1,22 @@
+.conducting-classes {
+    &__wrapper {
+        max-width: 263px;
+    }
+    &__socials {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #a8a8a8;
+        width: 48px;
+        height: 48px;
+        transition: background-color ease 0.3s;
+        &:hover {
+            background-color: #e4e2e2;
+        }
+    }
+}
