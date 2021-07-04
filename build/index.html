@@ -9,8 +9,17 @@
   </head>
   <body>
     <header class="header container"><a href="/"><img src="/img/logo.png" alt=""></a>
-      <nav class="header__navigation"><a class="header__link" href="#">О ПРОЕКТЕ</a><a class="header__link" href="#">КУРСЫ</a><a class="header__link" href="#">ВУЗЫ И ШКОЛЫ</a><a class="header__link" href="#">ПРЕПОДАВАТЕЛИ</a></nav>
-      <button class="header__city" type="button"><img src="/img/icons/arrow.png" alt=""><span>МОСКВА</span></button><a class="header__educate" href="#">ХОЧУ ОБУЧАТЬ</a><a class="header__sign-in" href="#">ВОЙТИ</a>
+      <div class="header__wrapper">
+        <nav class="header__navigation"><a class="header__link" href="#">О ПРОЕКТЕ</a><a class="header__link" href="#">КУРСЫ</a><a class="header__link" href="#">ВУЗЫ И ШКОЛЫ</a><a class="header__link" href="#">ПРЕПОДАВАТЕЛИ</a></nav>
+        <button class="header__city" type="button"><img src="/img/icons/arrow.png" alt=""><span>МОСКВА</span></button><a class="header__educate" href="#">ХОЧУ ОБУЧАТЬ</a><a class="header__sign-in" href="#">ВОЙТИ</a>
+      </div>
+      <div class="burger">
+        <div class="burger__line burger__line--l1"></div>
+        <div class="burger__line burger__line--l2"></div>
+        <div class="burger__line burger__line--l3"></div>
+        <div class="burger__line burger__line--l4"></div>
+        <div class="burger__line burger__line--l5"></div>
+      </div>
     </header>
     <main>
       <section class="main">
@@ -29,23 +38,25 @@
       </section>
       <section class="popular container">
         <h2 class="popular__title">ПОПУЛЯРНЫЕ КУРСЫ</h2>
-        <ul class="popular__courses">
-          <li class="popular__course popular__course--active">
-            <button type="button">ВСЕ КУРСЫ  450</button>
-          </li>
-          <li class="popular__course">
-            <button type="button">IT-КУРСЫ  5</button>
-          </li>
-          <li class="popular__course">
-            <button type="button">ПРОФЕССИОНАЛЬНЫЙ РОСТ  10</button>
-          </li>
-          <li class="popular__course">
-            <button type="button">БИЗНЕС И ФИНАНСЫ 40</button>
-          </li>
-          <li class="popular__course">
-            <button type="button">WEB-ДИЗАЙН  10</button>
-          </li>
-        </ul>
+        <div class="popular__tabs"><img class="popular__arrow popular__arrow--left" src="/img/icons/mob-slider.png" alt="">
+          <ul class="popular__courses">
+            <li class="popular__course popular__course--active">
+              <button type="button">ВСЕ КУРСЫ  450</button>
+            </li>
+            <li class="popular__course">
+              <button type="button">IT-КУРСЫ  5</button>
+            </li>
+            <li class="popular__course">
+              <button type="button">ПРОФЕССИОНАЛЬНЫЙ РОСТ  10</button>
+            </li>
+            <li class="popular__course">
+              <button type="button">БИЗНЕС И ФИНАНСЫ 40</button>
+            </li>
+            <li class="popular__course">
+              <button type="button">WEB-ДИЗАЙН  10</button>
+            </li>
+          </ul><img class="popular__arrow popular__arrow--right" src="/img/icons/mob-slider.png" alt="">
+        </div>
         <div class="popular__about-courses">
           <div class="about-course">
             <div class="about-course__above-header">

@@ -1,5 +1,8 @@
 .customer {
     max-width: 254px;
+    @media screen and (max-width: 1040px) {
+        width: 33%;
+    }
     &__to-whom {
         font-family: 'Cuprum';
         font-size: 22px;

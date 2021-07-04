@@ -3,6 +3,10 @@
     &__img {
         width: 100%;
         border-radius: 100%;
+        @media screen and (max-width: 992px) {
+            width: 200px;
+            height: 200px;
+        }
     }
     &__about {
         display: flex;

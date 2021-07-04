@@ -1,5 +1,8 @@
 .our-partner {
     max-width: 360px;
+    @media screen and (max-width: 1130px) {
+        width: 30%;
+    }
     &__img {
         max-width: 100%;
     }

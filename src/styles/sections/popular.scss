@@ -12,12 +12,36 @@
         margin-top: 82px;
         margin-bottom: 80px;
     }
+    &__tabs {
+        width: 100%;
+        position: relative;
+    }
+    &__arrow {
+        position: absolute;
+        cursor: pointer;
+        @media screen and (min-width: 1071px) {
+            display: none;
+        }
+        &--left {
+            left: 40px;
+            top: 40%;
+        }
+        &--right {
+            transform: rotate(180deg);
+            right: 40px;
+            bottom: 35%;
+        }
+    }
     &__courses {
         display: flex;
         justify-content: center;
         width: 100%;
         margin: 0px;
         border-bottom: 1px solid #e3e5e8;
+        @media screen and (max-width: 1070px) {
+            border-bottom: none;
+            border: 1px solid #a8a8a8;
+        }
     }
     &__course {
         list-style-type: none;
@@ -62,19 +86,32 @@
             opacity: 0;
             z-index: 2;
             transition: opacity ease 0.3s;
+            @media screen and (max-width: 1070px) {
+                display: none;
+            }
         }
         &:hover  {
             &::before {
                 transform: translate(-50%, -50%) scale(1);
             }
         }
+        @media screen and (max-width: 1070px) {
+            display: none;
+        }
         &--active {
             button {
                 color: #b93777;
+                @media screen and (max-width: 1070px) {
+                color: #a8a8a8;
+                }
             }
             &::after {
                 opacity: 1;
             }
+            @media screen and (max-width: 1070px) {
+                display: block;
+            }
+            position: relative;
         }
     }
     &__about-courses {
@@ -83,7 +120,7 @@
         justify-content: space-between;
     }
     .button {
-            margin-top: 63px;
+        margin-top: 63px;
     }
 }
 

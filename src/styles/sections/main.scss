@@ -9,6 +9,10 @@
     padding-top: 350px;
     padding-bottom: 390px;
     margin-top: -149.2px;
+    @media screen and (max-width: 1440px) {
+        padding-top: 220px;
+        padding-bottom: 250px;
+    }
     &__title {
         font-family: 'Cuprum';
         font-weight: 400;

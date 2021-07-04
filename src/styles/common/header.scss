@@ -1,15 +1,62 @@
 .header {
+    @media screen and (max-width: 1040px) {
+        justify-content: space-between;
+        position: relative;
+    }
     display: flex;
     align-items: center;
     margin-top: 40px;
     padding-left: 23px;
     padding-right: 18px;
+    &__wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        @media screen and (max-width: 1040px) {
+            padding-left: 250px;
+            margin-right: 20px;
+        }
+        @media screen and (max-width: 870px) {
+            padding-left: 0;
+        }
+        @media screen and (max-width: 670px) {
+            position: absolute;
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            right: 0;
+            background-color: rgba(255,255, 255, 0.9);
+            border-radius: 10px;
+            text-align: right;
+            padding: 15px 20px;
+            top: calc(100% - 20px);
+            align-items: flex-end;
+        }
+        &--active {
+            @media screen and (max-width: 1040px) {
+                .header__navigation {
+                    opacity: 1; 
+                }
+            }
+            @media screen and (max-width: 670px) {
+                opacity: 1;
+            }
+        }
+    }
     &__link {
         font-family: 'Bebas Neue Regular';
         font-size: 15px;
         color: black;
         &:not(:last-child) {
             margin-right: 50px;
+        }
+        @media screen and (max-width: 1040px) {
+            &:not(:last-child) {
+                margin-right: 0;
+                margin-bottom: 5px;
+            }
         }
         transition: color ease 0.3s;
         &:hover {
@@ -19,6 +66,26 @@
     &__navigation {
         margin-left: 50px;
         margin-right: auto;
+        @media screen and (max-width: 1040px) {
+            position: absolute;
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            right: 10px;
+            top: calc(100% - 20px);
+            background-color: rgba(255,255, 255, 0.7);
+            border-radius: 10px;
+            text-align: right;
+            padding: 15px 20px;
+        }
+        @media screen and (max-width: 670px) {
+            position: static;
+            width: auto;
+            background-color: transparent;
+            padding-right: 0;
+            margin-right: 0;
+        }
     }
     &__city {
         font-family: 'Bebas Neue Regular';
@@ -35,6 +102,12 @@
         &:hover {
             background-color: rgba(255, 255, 255, 0.5);
         }
+        @media screen and (max-width: 1040px) {
+            margin: auto;
+        }
+        @media screen and (max-width: 670px) {
+            margin-right: 0;
+        }
     }
     &__educate {
         font-family: 'Cuprum';
@@ -44,6 +117,10 @@
         transition: color ease 0.3s;
         &:hover {
             color: #d3659c;
+        }
+        @media screen and (max-width: 670px) {
+            margin-top: 10px;
+            margin-bottom: 5px;
         }
     }
     &__sign-in {

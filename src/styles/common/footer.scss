@@ -53,6 +53,9 @@
     &__wrapper {
         width: 702px;
         margin-right: 48px;
+        @media screen and (max-width: 1130px) {
+            margin-left: 15px;
+        }
     }
     &__navigation {
         display: flex;
