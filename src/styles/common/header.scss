@@ -9,9 +9,28 @@
     padding-left: 23px;
     padding-right: 18px;
     &__logo {
-        @media screen and (max-width: 320px) {
-            width: 115px;
-            height: 100px;
+        @media screen and (max-width: 425px) {
+            position: absolute;
+            right: 25%;
+        }
+    }
+    &__logotype {
+        @media screen and (max-width: 425px) {
+            display: none;
+        }
+    }
+    &__mob-logo {
+        @media screen and (min-width: 426px) {
+            display: none;
+        }
+        @media screen and (max-width: 355px) {
+            width: 140px;
+            height: 40px;
+        }
+        @media screen and (max-width: 335px) {
+            width: 120px;
+            height: 30px;
+            margin-top: 5px;
         }
     }
     &__wrapper {

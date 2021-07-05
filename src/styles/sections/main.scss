@@ -26,11 +26,11 @@
         @media screen and (max-width: 486px) {
             font-size: 15px;
         }
-        @media screen and (max-width: 386px) {
-            font-size: 12px;
+        @media screen and (max-width: 425px) {
+            text-align: center;
         }
-        @media screen and (max-width: 320px) {
-            font-size: 10px;
+        @media screen and (max-width: 386px) {
+            font-size: 14px;
         }
     }
     &__partners {
@@ -48,10 +48,10 @@
             margin-right: 45px;
         }
         @media screen and (max-width: 386px) {
-            font-size: 10px;
-        }
-        @media screen and (max-width: 320px) {
-            font-size: 8px;
+            font-size: 14px;
+            &:not(:last-child) {
+                margin-right: 5px;
+            }
         }
     }
     &__search-field {
@@ -66,6 +66,9 @@
         }
         @media screen and (max-width: 486px) {
             width: 70%;
+        }
+        @media screen and (max-width: 425px) {
+            display: none;
         }
     }
     &__text {

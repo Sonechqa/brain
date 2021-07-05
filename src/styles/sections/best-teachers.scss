@@ -54,6 +54,9 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: 375px) {
+            justify-content: center;
+        }
     }
     &__navigation {
         position: absolute;
@@ -115,6 +118,9 @@
         }
         @media screen and (max-width: 536px) {
             top: 12%;
+        }
+        @media screen and (max-width: 375px) {
+            display: none;
         }
     }
 }

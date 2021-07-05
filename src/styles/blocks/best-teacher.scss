@@ -23,6 +23,10 @@
             width: 100px;
             height: 100px;
         }
+        @media screen and (max-width: 375px) {
+            width: 150px;
+            height: 150px;
+        }
     }
     &__about {
         display: flex;
@@ -42,16 +46,23 @@
         @media screen and (max-width: 636px) {
             font-size: 15px;
         }
+        @media screen and (max-width: 375px) {
+            font-size: 20px;
+        }
     }
     &__subjects {
         font-family: 'Cuprum';
         font-size: 15px;
         color: #b93777;
+        text-align: center;
         @media screen and (max-width: 786px) {
-            font-size: 12px;
+            font-size: 14px;
         }
         @media screen and (max-width: 636px) {
-            font-size: 10px;
+            font-size: 14px;
+        }
+        @media screen and (max-width: 375px) {
+            font-size: 15px;
         }
     }
     @media screen and (max-width: 536px) {
@@ -59,11 +70,17 @@
             display: none;
         }
     }
-    @media screen and (max-width: 386px) {
+    @media screen and (max-width: 425px) {
         &:nth-child(3) {
             display: none;
         }
         width: 50%;
         text-align: center;
+    }
+    @media screen and (max-width: 375px) {
+        &:nth-child(2) {
+            display: none;
+        }
+        width: 100%;
     }
 }
