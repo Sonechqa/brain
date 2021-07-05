@@ -13,6 +13,19 @@
         max-width: none;
         width: 46%;
     }
+    @media screen and (max-width: 968px) {
+        width: 40%;
+    }
+    @media screen and (max-width: 536px) {
+        width: 60%;
+        margin: auto;
+    }
+    @media screen and (max-width: 436px) {
+        width: 70%;
+    }
+    @media screen and (max-width: 320px) {
+        width: 90%;
+    }
     &__line {
         display: flex;
         justify-content: space-between;

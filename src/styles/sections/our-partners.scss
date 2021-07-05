@@ -11,6 +11,33 @@
         letter-spacing: 12px;
         margin-top: 110px;
         margin-bottom: 76px;
+        @media screen and (max-width: 786px) {
+            font-size: 30px;
+        }
+        @media screen and (max-width: 736px) {
+            font-size: 27px;
+        }
+        @media screen and (max-width: 686px) {
+            font-size: 24px;
+        }
+        @media screen and (max-width: 636px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 586px) {
+            letter-spacing: 9px;
+        }
+        @media screen and (max-width: 486px) {
+            letter-spacing: 7px;
+        }
+        @media screen and (max-width: 436px) {
+            letter-spacing: 5px;
+        }
+        @media screen and (max-width: 386px) {
+            letter-spacing: 3px;
+        }
+        @media screen and (max-width: 320px) {
+            letter-spacing: 2px;
+        } 
     }
     &__wrapper {
         width: 100%;

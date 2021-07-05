@@ -1,7 +1,13 @@
 .customer {
     max-width: 254px;
     @media screen and (max-width: 1040px) {
+        max-width: none;
         width: 33%;
+    }
+    @media screen and (max-width: 786px) {
+        max-width: none;
+        width: 100%;
+        margin-bottom: 40px;
     }
     &__to-whom {
         font-family: 'Cuprum';
@@ -9,6 +15,9 @@
         color: #1f1f1f;
         margin-top: 62px;
         margin-bottom: 55px;
+        @media screen and (max-width: 886px) {
+            font-size: 20px;
+        }
     }
     &__img {
         height: 155px;

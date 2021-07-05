@@ -11,6 +11,38 @@
         max-width: none;
         width: 450px;
     }
+    @media screen and (max-width: 968px) {
+        max-width: none;
+        width: 349px;
+    }
+    @media screen and (max-width: 836px) {
+        max-width: none;
+        width: 301px;
+    }
+    @media screen and (max-width: 736px) {
+        max-width: none;
+        width: 265px;
+    }
+    @media screen and (max-width: 636px) {
+        max-width: none;
+        width: 229px;
+    }
+    @media screen and (max-width: 536px) {
+        max-width: none;
+        width: 290px;
+    }
+    @media screen and (max-width: 436px) {
+        max-width: none;
+        width: 274px;
+    }
+    @media screen and (max-width: 386px) {
+        max-width: none;
+        width: 244px;
+    }
+    @media screen and (max-width: 320px) {
+        max-width: none;
+        width: 260px;
+    }
     display: flex;
     justify-content: center;
     font-family: 'HelveticaNeueCyr-LightItalic';

@@ -17,6 +17,21 @@
         font-family: 'Cuprum';
         font-weight: 400;
         font-size: 23px;
+        @media screen and (max-width: 636px) {
+            font-size: 20px;
+        }
+        @media screen and (max-width: 536px) {
+            font-size: 18px;
+        }
+        @media screen and (max-width: 486px) {
+            font-size: 15px;
+        }
+        @media screen and (max-width: 386px) {
+            font-size: 12px;
+        }
+        @media screen and (max-width: 320px) {
+            font-size: 10px;
+        }
     }
     &__partners {
         display: flex;
@@ -32,6 +47,12 @@
         &:not(:last-child) {
             margin-right: 45px;
         }
+        @media screen and (max-width: 386px) {
+            font-size: 10px;
+        }
+        @media screen and (max-width: 320px) {
+            font-size: 8px;
+        }
     }
     &__search-field {
         display: flex;
@@ -40,6 +61,12 @@
         height: 60px;
         width: 555px;
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.23);
+        @media screen and (max-width: 686px) {
+            width: 80%;
+        }
+        @media screen and (max-width: 486px) {
+            width: 70%;
+        }
     }
     &__text {
         background-color: transparent;
