@@ -20,9 +20,7 @@ section.about-teacher.container
                         br
                         | Маргарита Поликарповна
                     span.about-teacher__years 38 лет, опыт работы 5 лет, женский пол
-            .about-teacher__location 
-                img(src="/img/icons/map.png" alt="")
-                span.about-teacher__city Москва, ЦАО, Ворошиловское шоссе
+            include ../components/location
             .about-teacher__services
                 each val in [{text: 'ПОДГОТОВКА К ЕГЭ', color: "white", size: "medium"}, {text: 'ВСТУПИТЕЛЬНЫЕ ЭКЗАМЕНЫ', color: "white", size: "big"}, {text: '10-11 КЛАСС', color: "white", size: "small"}, {text: 'МАТЕМАТИКА', color: "grey", size: "medium"}, {text: 'ФИЗИКА', color: "grey", size: "small"}, {text: 'ГЕОМЕТРИЯ', color: "grey", size: "small"}]
                     - serviceText = val.text;

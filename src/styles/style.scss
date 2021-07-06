@@ -1,25 +1,27 @@
-@import "utils/fonts";
+@import 'utils/fonts';
 
-@import "components/rating";
+@import 'components/rating';
 
-@import "components/banner";
+@import 'components/banner';
 
-@import "components/button";
+@import 'components/button';
 
-@import "components/above-header";
+@import 'components/above-header';
 
-@import "components/breadcrumb";
+@import 'components/breadcrumb';
 
-@import "components/service";
+@import 'components/service';
 
-@import "components/burger";
+@import 'components/burger';
 
-@import "common/global";
+@import 'components/location';
 
-@import "common/header";
+@import 'common/global';
 
-@import "common/footer";
+@import 'common/header';
 
-@import "pages/index";
+@import 'common/footer';
 
-@import "pages/teacher";
+@import 'pages/index';
+
+@import 'pages/teacher';
