@@ -9,6 +9,8 @@
     list-style-type: none;
     padding-left: 0;
     width: 200px;
+    margin-top: 33px;
+    margin-bottom: 59px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -45,13 +47,40 @@
     }
   }
   &__class-location {
-    margin-top: 33px;
-    margin-left: 30px;
+    margin-top: 30px;
   }
   &__place {
-    padding-bottom: 27px;
     font-family: 'HelveticaNeueCyr-Roman';
     font-size: 13px;
     color: #a8a8a8;
+  }
+  .location {
+    margin-top: 17px;
+  }
+  &__about {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-left: 30px;
+  }
+  &__custom-checkboxes {
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+    margin-top: 59px;
+  }
+  &__documents {
+    margin-top: 68px;
+  }
+  &__title {
+    font-family: 'HelveticaNeueCyr-Roman';
+    font-size: 13px;
+    color: #a8a8a8;
+    margin-bottom: 26px;
+    margin-top: 0;
+  }
+  &__licenses {
+    display: flex;
+    justify-content: space-between;
   }
 }

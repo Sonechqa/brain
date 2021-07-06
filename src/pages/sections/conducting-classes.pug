@@ -14,6 +14,16 @@ section.conducting-classes.container
                 a.conducting-classes__link(href="#")
                     img.conducting-classes__img(src="/img/socials/OK2.png" alt="")
         include ../blocks/our-partner
-    .conducting-classes__class-location 
-        span.conducting-classes__place Места проведения занятий
-        include ../components/location
+    .conducting-classes__about
+        .conducting-classes__class-location 
+            span.conducting-classes__place Места проведения занятий
+            include ../components/location
+        .conducting-classes__custom-checkboxes
+            each val in [{text: 'Выезд'}, {text: 'Занятия в группе'}, {text: 'Индивидуально'}, {text: 'Онлайн'}]
+                - checkboxText = val.text;
+                include ../components/checkbox
+        .conducting-classes__documents 
+            h4.conducting-classes__title Лицензии и дипломы
+            .conducting-classes__licenses
+                each val in [1, 2, 3, 4]
+                    include ../components/license
