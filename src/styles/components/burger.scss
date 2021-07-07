@@ -32,6 +32,15 @@
             transform: rotate(-45deg);
             top: 50%;
         }
+        @media screen and (max-width: 340px) {
+            width: 37px;
+        }
+        @media screen and (max-width: 320px) {
+            width: 33px;
+        }
+        @media screen and (max-width: 300px) {
+            width: 30px;
+        }
     }
     &--active {
         .burger {
@@ -53,5 +62,17 @@
                 }
             }
         }
+    }
+    @media screen and (max-width: 340px) {
+        width: 37px;
+        height: 37px;
+    }
+    @media screen and (max-width: 320px) {
+        width: 33px;
+        height: 33px;
+    }
+    @media screen and (max-width: 300px) {
+        width: 30px;
+        height: 30px;
     }
 }

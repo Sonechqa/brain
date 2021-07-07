@@ -43,6 +43,10 @@
         max-width: none;
         width: 260px;
     }
+    @media screen and (max-width: 300px) {
+        max-width: none;
+        width: 243px;
+    }
     display: flex;
     justify-content: center;
     font-family: 'HelveticaNeueCyr-LightItalic';

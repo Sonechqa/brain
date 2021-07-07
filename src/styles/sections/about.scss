@@ -43,6 +43,9 @@
         @media screen and (max-width: 320px) {
             letter-spacing: 2px;
         }
+        @media screen and (max-width: 300px) {
+            letter-spacing: 0;
+        }
     }
     &__description {
         line-height: 26px;

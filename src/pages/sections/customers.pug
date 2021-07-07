@@ -6,6 +6,15 @@ section.customers.container
             - customerText = val.text;
             include ../blocks/customer
     .customers__gallery
-        img.customers__img(src="/img/gallery/1.jpg" alt="")
-        img.customers__img(src="/img/gallery/2.jpg" alt="")
-        img.customers__img(src="/img/gallery/3.jpg" alt="")
+        picture.customers__img
+            source(media="(max-width: 804px)" srcset="/img/gallery/4.jpg")
+            source(media="(min-width: 804px)" srcset="/img/gallery/1.jpg")
+            img(src="/img/gallery/1.jpg" alt="")
+        picture.customers__img
+            source(media="(max-width: 804px)" srcset="/img/gallery/4.jpg")
+            source(media="(min-width: 804px)" srcset="/img/gallery/2.jpg")
+            img(src="/img/gallery/2.jpg" alt="")
+        picture.customers__img
+            source(media="(max-width: 804px)" srcset="/img/gallery/4.jpg")
+            source(media="(min-width: 804px)" srcset="/img/gallery/3.jpg")
+            img(src="/img/gallery/3.jpg" alt="")

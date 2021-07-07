@@ -39,6 +39,9 @@
         @media screen and (max-width: 320px) {
             letter-spacing: 2px;
         }
+        @media screen and (max-width: 300px) {
+            letter-spacing: 0;
+        }
     }
     &__slider {
         width: 100%;
@@ -54,6 +57,12 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        @media screen and (max-width: 731px) {
+            text-align: center;
+        }
+        @media screen and (max-width: 536px) {
+            text-align: center;
+        }
         @media screen and (max-width: 375px) {
             justify-content: center;
         }
@@ -113,10 +122,15 @@
                 height: 45px;
             }
         }
-        @media screen and (max-width: 636px) {
+        @media screen and (max-width: 790px) {
+            top: 18%;
+        }
+        @media screen and (max-width: 731px) {
             top: 15%;
         }
-        @media screen and (max-width: 536px) {
+        @media screen and (max-width: 633px) {
+            width: 15px;
+            height: 40px;
             top: 12%;
         }
         @media screen and (max-width: 375px) {

@@ -15,7 +15,11 @@
         <div class="burger__line burger__line--l3"></div>
         <div class="burger__line burger__line--l4"></div>
         <div class="burger__line burger__line--l5"></div>
-      </div><a class="header__logo" href="/"><img class="header__logotype" src="/img/logo.png" alt=""><img class="header__mob-logo" src="/img/mob-logo.png" alt=""></a>
+      </div><a class="header__logo" href="/">
+        <picture>
+          <source media="(max-width: 424px)" srcset="/img/mob-logo.png">
+          <source media="(min-width: 424px)" srcset="/img/logo.png"><img src="/img/logo.png" alt="">
+        </picture></a>
       <div class="header__wrapper">
         <nav class="header__navigation"><a class="header__link" href="#">О ПРОЕКТЕ</a><a class="header__link" href="#">КУРСЫ</a><a class="header__link" href="#">ВУЗЫ И ШКОЛЫ</a><a class="header__link" href="#">ПРЕПОДАВАТЕЛИ</a></nav>
         <button class="header__city" type="button"><img src="/img/icons/arrow.png" alt=""><span>МОСКВА</span></button><a class="header__educate" href="#">ХОЧУ ОБУЧАТЬ</a><a class="header__sign-in" href="#">ВОЙТИ</a>
@@ -309,7 +313,20 @@
             </div><a class="customer__search" href="#">ИСКАТЬ КУРС</a>
           </div>
         </div>
-        <div class="customers__gallery"><img class="customers__img" src="/img/gallery/1.jpg" alt=""><img class="customers__img" src="/img/gallery/2.jpg" alt=""><img class="customers__img" src="/img/gallery/3.jpg" alt=""></div>
+        <div class="customers__gallery">
+          <picture class="customers__img">
+            <source media="(max-width: 804px)" srcset="/img/gallery/4.jpg">
+            <source media="(min-width: 804px)" srcset="/img/gallery/1.jpg"><img src="/img/gallery/1.jpg" alt="">
+          </picture>
+          <picture class="customers__img">
+            <source media="(max-width: 804px)" srcset="/img/gallery/4.jpg">
+            <source media="(min-width: 804px)" srcset="/img/gallery/2.jpg"><img src="/img/gallery/2.jpg" alt="">
+          </picture>
+          <picture class="customers__img">
+            <source media="(max-width: 804px)" srcset="/img/gallery/4.jpg">
+            <source media="(min-width: 804px)" srcset="/img/gallery/3.jpg"><img src="/img/gallery/3.jpg" alt="">
+          </picture>
+        </div>
       </section>
     </main>
     <footer class="footer">

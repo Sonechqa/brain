@@ -1,8 +1,10 @@
 header.header.container
   include ../components/burger
   a.header__logo(href="/")
-    img.header__logotype(src="/img/logo.png" alt="")
-    img.header__mob-logo(src="/img/mob-logo.png" alt="")
+    picture
+      source(media="(max-width: 424px)" srcset="/img/mob-logo.png")
+      source(media="(min-width: 424px)" srcset="/img/logo.png")
+      img(src="/img/logo.png" alt="")
   .header__wrapper
     nav.header__navigation
       a.header__link(href="#") О ПРОЕКТЕ
