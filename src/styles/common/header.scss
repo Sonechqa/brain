@@ -52,6 +52,9 @@
             top: calc(100% - 20px);
             align-items: flex-start;
         }
+        @media screen and (max-width: 424px) {
+            top: calc(100% + 5px);
+        }
         &--active {
             @media screen and (max-width: 1040px) {
                 .header__navigation {
@@ -90,12 +93,13 @@
             display: flex;
             flex-direction: column;
             width: 200px;
-            right: 10px;
+            left: 0;
             top: calc(100% - 20px);
             background-color: rgba(255,255, 255, 0.7);
             border-radius: 10px;
             text-align: left;
             padding: 15px 20px;
+            margin-left: 40px;
         }
         @media screen and (max-width: 670px) {
             position: static;
