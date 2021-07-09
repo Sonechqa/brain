@@ -32,8 +32,11 @@
             transform: rotate(-45deg);
             top: 50%;
         }
-        @media screen and (max-width: 340px) {
+        @media screen and (max-width: 342px) {
             width: 37px;
+        }
+        @media screen and (max-width: 330px) {
+            width: 35px;
         }
         @media screen and (max-width: 320px) {
             width: 33px;
@@ -63,9 +66,13 @@
             }
         }
     }
-    @media screen and (max-width: 340px) {
+    @media screen and (max-width: 342px) {
         width: 37px;
         height: 37px;
+    }
+    @media screen and (max-width: 330px) {
+        width: 35px;
+        height: 35px;
     }
     @media screen and (max-width: 320px) {
         width: 33px;

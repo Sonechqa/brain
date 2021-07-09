@@ -13,21 +13,53 @@
         @media screen and (max-width: 1040px) {
             margin-left: 70px;
         }
+        @media screen and (max-width: 670px) {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 10px);
+            width: 118px;
+            height: 103px;
+            margin-left: 0;
+        }
         @media screen and (max-width: 425px) {
             position: absolute;
-            right: 25%;
+            top: -10%;
+            width: 140px;
+            height: 40px;
         }
         @media screen and (max-width: 376px) {
             width: 140px;
             height: 34px;
         }
-        @media screen and (max-width: 340px) {
+        @media screen and (max-width: 342px) {
             width: 130px;
             height: 29px;
         }
-        @media screen and (max-width: 300px) {
+        @media screen and (max-width: 330px) {
             width: 120px;
             height: 24px;
+        }
+        @media screen and (max-width: 300px) {
+            width: 115px;
+            height: 22px;
+        }
+    }
+    &__mob-location {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        @media screen and (min-width: 671px) {
+            display: none;
+        }
+    }
+    &__map-img {
+        @media screen and (max-width: 360px) {
+            width: 27px;
+            height: 38px;
+        }
+        @media screen and (max-width: 320px) {
+            width: 24px;
+            height: 35px;
         }
     }
     &__wrapper {
@@ -49,7 +81,7 @@
             border-radius: 10px;
             margin-left: 40px;
             padding: 15px 20px;
-            top: calc(100% - 20px);
+            top: 100%;
             align-items: flex-start;
         }
         @media screen and (max-width: 424px) {
@@ -128,7 +160,7 @@
             margin: auto;
         }
         @media screen and (max-width: 670px) {
-            margin-right: 0;
+            display: none;
         }
     }
     &__educate {
@@ -141,7 +173,6 @@
             color: #d3659c;
         }
         @media screen and (max-width: 670px) {
-            margin-top: 10px;
             margin-bottom: 5px;
             margin-left: 10px;
         }

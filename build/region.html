@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Корпорация мозга</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="header container">
+      <div class="burger">
+        <div class="burger__line burger__line--l1"></div>
+        <div class="burger__line burger__line--l2"></div>
+        <div class="burger__line burger__line--l3"></div>
+        <div class="burger__line burger__line--l4"></div>
+        <div class="burger__line burger__line--l5"></div>
+      </div><a class="header__logo" href="/">
+        <picture>
+          <source media="(max-width: 424px)" srcset="/img/mob-logo.png">
+          <source media="(min-width: 424px)" srcset="/img/logo.png"><img src="/img/logo.png" alt="">
+        </picture></a>
+      <button class="header__mob-location" type="button"><img class="header__map-img" src="/img/icons/map-pin.png" alt=""></button>
+      <div class="header__wrapper">
+        <nav class="header__navigation"><a class="header__link" href="#">О ПРОЕКТЕ</a><a class="header__link" href="#">КУРСЫ</a><a class="header__link" href="#">ВУЗЫ И ШКОЛЫ</a><a class="header__link" href="#">ПРЕПОДАВАТЕЛИ</a></nav>
+        <button class="header__city" type="button"><img src="/img/icons/arrow.png" alt=""><span>МОСКВА</span></button><a class="header__educate" href="#">ХОЧУ ОБУЧАТЬ</a><a class="header__sign-in" href="#">ВОЙТИ</a>
+      </div>
+    </header>
+    <main>
+      <section class="region-selection container"><span class="region-selection__close"></span>
+        <div class="region-selection__city-search"><img class="region-selection__map-pin" src="/img/icons/map-pin.png" alt="">
+          <form class="region-selection__search-field">
+            <input class="region-selection__text" type="text" placeholder="Начните вводить название города...">
+          </form>
+        </div>
+        <div class="region-selection__choose-city"> 
+          <h2 class="region-selection__title">Или выберите город из списка</h2>
+        </div>
+        <ul class="region-selection__city-select-content">
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Астрахань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Белгород</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Волгоград</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Геленджик</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Домодедово</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Екатеринбург</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Иркутск</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Казань</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Краснодар</button>
+          </li>
+          <li class="region-selection__city"> 
+            <button class="region-selection__button" type="button">Москва</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__links"><a class="footer__logo" href="/"><img class="footer__img-logo" src="/img/logo.png" alt=""></a>
+          <div class="footer__adaptive"><a class="footer__adaptive-link" href="#">О ПРОЕКТЕ</a><a class="footer__adaptive-link" href="">КУРСЫ</a><a class="footer__adaptive-link" href="">ВУЗЫ И ШКОЛЫ</a><a class="footer__adaptive-link" href="">ПРЕПОДАВАТЕЛИ</a><a class="footer__adaptive-link" href="">ЛИЧНЫЙ КАБИНЕТ</a></div>
+          <ul class="footer__socials">
+            <li class="footer__social-network"><a class="footer__link" href="#"><img class="footer__img" src="/img/socials/VK.png" alt=""></a></li>
+            <li class="footer__social-network"><a class="footer__link" href="#"><img class="footer__img" src="/img/socials/facebook.png" alt=""></a></li>
+            <li class="footer__social-network"><a class="footer__link" href="#"><img class="footer__img" src="/img/socials/twitter.png" alt=""></a></li>
+            <li class="footer__social-network"><a class="footer__link" href="#"><img class="footer__img" src="/img/socials/OK.png" alt=""></a></li>
+            <li class="footer__social-network"><a class="footer__link" href="#"><img class="footer__img" src="/img/socials/skype.png" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="footer__wrapper">
+          <ul class="footer__navigation"> 
+            <li class="footer__about-project"><a class="footer__advertisement" href="#">О ПРОЕКТЕ</a></li>
+            <li class="footer__about-project"><a class="footer__advertisement" href="#">РЕКЛАМА НА САЙТЕ</a></li>
+            <li class="footer__about-project"><a class="footer__advertisement" href="#">ВУЗАМ И ПРЕПОДАВАТЕЛЯМ</a></li>
+          </ul>
+          <div class="footer__menu"> 
+            <div class="footer__menu-links"><a class="footer__title" href="">ЛИЧНЫЙ КАБИНЕТ</a><a class="footer__menu-link" href="">Войти</a><a class="footer__menu-link" href="">Регистрация</a></div>
+            <div class="footer__menu-links"><a class="footer__title" href="">КУРСЫ</a><a class="footer__menu-link" href="">Разместить курс</a></div>
+            <div class="footer__menu-links"><a class="footer__title" href="">ВУЗЫ И ШКОЛЫ</a><a class="footer__menu-link" href="">Стать партнером сайта</a></div>
+            <div class="footer__menu-links"><a class="footer__title" href="">ПРЕПОДАВАТЕЛИ</a><a class="footer__menu-link" href="">Опубликовать профиль</a></div>
+          </div>
+          <p class="footer__copyright">Все права защищены   © КОРПОРАЦИЯ МОЗГА, 2018</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

@@ -27,6 +27,10 @@
         max-width: none;
         width: 229px;
     }
+    @media screen and (max-width: 550px) {
+        max-width: none;
+        width: 297px;
+    }
     @media screen and (max-width: 536px) {
         max-width: none;
         width: 290px;
